@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+/* ==============　ページ全体の書式指定　============== */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #4188a4;
+}
+#container{
+    width: 700px;
+    margin: 0px auto;
+    background-color: #a98181;
+    border-left: 5px solid #57514b;
+    border-right: 5px solid #554331;
+}
+
+/* ===============　ヘッダーの書式指定　=============== */
+header{
+    height: 200px;
+    background-image: url("title-back2.jpg");
+}
+#header-title{
+    padding-top: 135px;
+    padding-left: 15px;
+    color: #ae3828;
+    font: bold 44px sans-serif;
+}
+
+/* ===============　メニューの書式指定　=============== */
+nav ul{
+    list-style-type: none;
+    display: flex;
+    background-image: url("menu-back.png");
+}
+nav a{
+    display: block;
+    width: 140px;
+    padding: 10px 0px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    font: bold 14px/20px sans-serif;
+}
+nav a:hover{
+    background-color: #FF3300;
+}
+
+/* ================　メインの書式指定　================ */
+#main{
+    padding: 30px;
+}
+
+/* ================　各要素の書式指定　================ */
+h1{
+    background-color: #ec1010;
+    border-radius: 5px;
+    border-left: solid 15px #170b28;
+    padding: 6px 10px 4px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 10px #563838;
+    font: bold 18px sans-serif;
+    color: #f9f451;
+}
+
+/* ===============　フッターの書式指定　=============== */
+footer{
+    background-color: #3e1348;
+    padding: 10px;
+    font: 12px sans-serif;
+    text-align: right;
+    color: #b0731d;
+}
